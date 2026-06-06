@@ -285,6 +285,9 @@
   .z-2 {
     z-index: 2;
   }
+  .z-3 {
+    z-index: 3;
+  }
   .z-9 {
     z-index: 9;
   }
