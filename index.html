@@ -13,7 +13,7 @@
 <body class="antialiased font-display box-border bg-[#F9F7F5]">
     <main class="main flex flex-col items-center min-h-screen w-full relative">
         <header
-            class="flex items-center justify-center w-full px-4 md:px-6 md:py-2 fixed overflow-visible left-0 right-0 top-0 z-10 bg-[#F6F3F1]">
+            class="flex items-center justify-center w-full px-4 md:px-6 md:py-2 fixed overflow-visible left-0 right-0 top-0 z-10 bg-[#F6F3F1] border-b border-[#d7d1cb]">
             <nav class="flex items-center justify-between w-full h-15 gap-10 text-gray-500 max-w-325">
                 <div class="logo"><img src="./src/images/LOGIC.png"
                         class="h-11 md:h-15 w-full object-center object-cover" alt=""></div>
@@ -552,7 +552,7 @@
             </div>
         </section>
         <!--  -->
-        <section class="py-12 px-4 gap-50 w-full md:py-30 md:px-12 flex flex-col items-center bg-[#F6F3F1]">
+        <section class="py-12 px-4 gap-20 md:gap-50 w-full md:py-30 md:px-12 flex flex-col items-center bg-[#F6F3F1]">
             <div class="flex flex-col items-center gap-18 md:max-w-325 w-full">
                 <div class="flex flex-col items-center gap-1 md:max-w-160 text-center w-full">
                     <span class="text-[14px] text-[#2a38a4] rounded-full uppercase">Blog</span>
@@ -854,7 +854,8 @@
             <!--  -->
             <div
                 class="flex flex-col md:flex-row items-center md:items-start justify-center gap-18 md:max-w-325 w-full">
-                <div class="flex-[1_0_0] gap-4 max-w-142.5 w-full flex flex-col items-start justify-center">
+                <div
+                    class="md:sticky md:top-24 flex-[1_0_0] gap-4 max-w-142.5 w-full flex flex-col items-start justify-center">
                     <h5 class="text-[12px] md:text-[16px]">
                         REFLECTIONS
                     </h5>
@@ -906,6 +907,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div
                         class="bg-[rgb(245,243,240)]/20 pl-4 min-h-60 flex items-start justify-start gap-5 border border-[#d7d1cb]">
                         <div class="bg-[#525FBD] h-35 w-8"></div>
@@ -936,6 +938,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div
                         class="bg-[rgb(245,243,240)]/20 pl-4 min-h-60 flex items-start justify-start gap-5 border border-[#d7d1cb]">
                         <div class="bg-[#525FBD] h-35 w-8"></div>
@@ -978,23 +981,23 @@
             <section
                 class="w-full h-full flex flex-col items-center gap-6 py-12 px-4 md:py-30 md:px-12 relative overflow-hidden">
                 <div
-                    class="flex-[1_0_0] flex flex-col md:flex-row items-start md:max-w-325 h-full md:h-95 gap-6 overflow-visible w-full md:h-full">
-                    <div class="flex-[1_0_0] h-full w-full max-w-229 relative">
+                    class="flex-[1_0_0] flex flex-col md:flex-row items-start md:max-w-325 h-full gap-6 overflow-visible w-full">
+                    <div class="flex-[1_0_0] h-fulf w-full max-w-229 relative">
                         <div
-                            class="flex items-center px-12 py-14 md:py-26 relative overflow-visible h-full max-w-[full] w-full border rounded-lg border-[rgb(215,209,203)]">
+                            class="flex items-center py-16 md:py-12.5 px-4 md:px-8 relative overflow-visible h-full max-w-[full] w-full border rounded-lg border-[rgb(215,209,203)]">
                             <div
                                 class="flex-[1_0_0] flex flex-col items-center md:items-start gap-10 relative z-9 overflow-visible">
                                 <div
-                                    class="w-full flex flex-col items-start gap-4 max-w-91.25 relative overflow-hidden">
-                                    <div class="relative w-full max-w-95 h-auto">
+                                    class="w-full flex flex-col items-center md:items-start gap-4 md:max-w-91.25 relative overflow-hidden">
+                                    <div class="relative w-full md:max-w-95 h-auto">
                                         <h3
-                                            class="text-[rgb(249,247,245)] tracking-[-.02em] leading-[1.3em] text-[29px] md:text-[2.06rem]">
+                                            class="text-[rgb(249,247,245)] tracking-[-.02em] leading-[1.3em] text-[25px] text-center md:text-start md:text-[2.06rem]">
                                             Ready to Join Our Community?
                                         </h3>
                                     </div>
                                     <div class="md:text-balance w-full max-w-95 h-auto relative">
                                         <p
-                                            class="text-[rgb(249,247,245)] tracking-[-.01em] leading-[1.6em] text-[16px] text-center">
+                                            class="text-[rgb(249,247,245)] tracking-[-.01em] leading-[1.6em] text-[16px] text-center md:text-start">
                                             We'd love to welcome you to The LOGIC Church. Come as you are and discover a
                                             place where you belong, grow, and make a difference.
                                         </p>
@@ -1004,7 +1007,9 @@
                                 <div class="relative w-auto h-auto cursor-pointer group">
                                     <a
                                         class="border-2 border-[rgb(158,165,222)] bg-[rgb(82,95,189)] transition duration-150 delay-75 ease-in group-hover:bg-[#525FBD] group-hover:border-[#525FBD] rounded-[28px] px-6 py-4 w-auto flex items-center justify-center gap-2">
-                                        <p class="tracking-[-.01] leading-[1em] text-[rgb(250,250,250)]">Plan Your Visit
+                                        <p
+                                            class="tracking-[-.01] leading-[1em] text-[rgb(250,250,250)] text-[14px] md:text-[16px]">
+                                            Plan Your Visit
                                         </p>
                                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -1033,10 +1038,9 @@
 
                             </div>
                         </div>
-
                     </div>
                     <!--  -->
-                    <div class="flex flex-[1_0_0] h-full w-full relative md:max-w-87.5">
+                    <div class="flex flex-[1_0_0] w-full relative md:max-w-87.5">
                         <div
                             class="border border-[rgb(215,209,203)] bg-[rgb(246,243,240)] h-full w-full max-w-full rounded-lg flex flex-col items-center gap-6 py-4 md:py-6 px-4 relative">
                             <!--  -->
@@ -1234,7 +1238,8 @@
                     </div>
                 </div>
 
-                <div class="flex items-center justify-between w-full text-[14px] md:text-[16px]">
+                <div
+                    class="flex flex-col md:flex-row gap-2 items-center justify-between w-full text-[14px] md:text-[16px]">
                     <div>
                         <p class="text-[#737373]">© 2026 The LOGIC Church. All rights reserved.</p>
                     </div>
