@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@layer components {
+    .nav-animate {
+      @apply transition duration-50 ease-in border border-transparent hover:border-[#A9ACB4] px-2 py-2 rounded-xl cursor-pointer;
+    }
+  }
+
+  @theme {
+    --font-display: 'Plus Jakarta Sans', 'sans-serif';
+    --breakpoint-sm: 30rem;
+    --breakpoint-md: 51rem;
+    --breakpoint-lg: 75rem;
+}
